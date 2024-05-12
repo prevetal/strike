@@ -1,0 +1,675 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --fixed_panel_width: 100%;
+        --font_size: 14px;
+    }
+
+
+    .wrap
+    {
+        padding: 20px 0;
+    }
+
+
+    .content_flex .content,
+    .content_flex .content.big_w
+    {
+        width: 100%;
+    }
+
+
+    .block
+    {
+        margin-bottom: 20px;
+    }
+
+    .block.big_m
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-----------------
+        Fixed panel
+    -----------------*/
+    .fixed_panel
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .fixed_panel .data
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        padding: 12px 20px;
+    }
+
+
+    .fixed_panel .logo img
+    {
+        width: 60px;
+    }
+
+
+    .fixed_panel .menu
+    {
+        position: absolute;
+        top: 100%;
+        left: 100%;
+
+        width: 100%;
+        margin: 20px 0 0 20px;
+        padding: 32px 20px;
+
+        transition: .2s linear;
+        text-align: center;
+
+        border-radius: 20px;
+        background: #121212;
+    }
+
+
+    .fixed_panel .menu.show
+    {
+        margin-left: 0;
+
+        transform: translateX(-100%);
+    }
+
+
+    .fixed_panel .menu > * + *
+    {
+        margin-top: 32px;
+    }
+
+
+
+    .fixed_panel .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    .fixed_panel .arrow
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        padding: 32px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 20px;
+
+        width: 100%;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 14px;
+
+        width: 240px;
+        margin-top: 20px;
+    }
+
+
+    .first_section .btn
+    {
+        font-size: 13px;
+
+        margin-top: 40px;
+        padding-left: 20px;
+    }
+
+
+    .first_section .btn .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*--------------------
+        Open locations
+    --------------------*/
+    .open_locations .head .link
+    {
+        font-size: 13px;
+
+        margin-top: 12px;
+    }
+
+
+    .open_locations .map.big
+    {
+        height: 480px;
+    }
+
+
+    .open_locations #map [class*='ymaps-'][class*='-balloon__content'] > *
+    {
+        width: 400px !important;
+        height: 258px !important;
+    }
+
+
+    .open_locations #map .item
+    {
+        padding: 24px 20px;
+    }
+
+
+    .open_locations #map .item .time
+    {
+        font-size: 14px;
+
+        top: 24px;
+        left: 20px;
+    }
+
+
+    .open_locations #map .item .name
+    {
+        font-size: 24px;
+    }
+
+
+    .open_locations #map .item .links
+    {
+        font-size: 14px;
+    }
+
+
+    .open_locations #map .item .thumb
+    {
+        height: 154px;
+        margin-bottom: 20px;
+    }
+
+
+    .open_locations #map .item .info
+    {
+        bottom: 16px;
+        left: 16px;
+    }
+
+
+    .open_locations #map .item .book_btn
+    {
+        font-size: 16px;
+    }
+
+
+    .open_locations #map .item .book_btn .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*-----------------
+        Social join
+    -----------------*/
+    .social_join
+    {
+        padding: 32px 20px;
+    }
+
+
+    .social_join .row a
+    {
+        min-width: 180px;
+    }
+
+
+    .social_join .row img
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .all_link
+    {
+        font-size: 13px;
+
+        margin-top: 12px;
+    }
+
+
+    .articles .article,
+    .articles .article.big
+    {
+        width: 320px;
+        min-height: 320px;
+        padding: 24px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 18px;
+
+        width: 240px;
+    }
+
+
+    .articles .article .link
+    {
+        margin-top: 20px;
+    }
+
+
+    .articles .article .link .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*------------
+        Arenas
+    ------------*/
+    .arenas .block_desc
+    {
+        font-size: 13px;
+
+        margin-top: 12px;
+    }
+
+
+    .arenas .list
+    {
+        padding: 20px;
+    }
+
+
+    .arenas .scroll
+    {
+        height: 349px;
+        padding-right: 10px;
+    }
+
+
+    .arenas .scroll::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .arenas .arena .city
+    {
+        font-size: 16px;
+    }
+
+
+    .arenas .arena .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*----------------
+        Book space
+    ----------------*/
+    .book_space
+    {
+        padding: 32px 20px;
+    }
+
+
+    .book_space .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-------------------
+        Сontacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .section,
+    .contacts_info .section:nth-child(2n)
+    {
+        padding: 20px;
+    }
+
+
+    .contacts_info .section .title
+    {
+        font-size: 16px;
+
+        padding-bottom: 20px;
+    }
+
+
+    .contacts_info .section .title br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 32px 20px 57%;
+    }
+
+
+    .action_block .data
+    {
+        width: 100%;
+    }
+
+
+    .action_block .title
+    {
+        font-size: 24px;
+    }
+
+
+    .action_block .desc
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .action_block .img
+    {
+        right: 0;
+        left: 0;
+
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+    /*----------------
+        Arena info
+    ----------------*/
+    .arena_info .data
+    {
+        padding: 40px 20px;
+    }
+
+
+    .arena_info .name
+    {
+        font-size: 36px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .arena_info .address
+    {
+        width: 100%;
+    }
+
+
+    .arena_info .address .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .arena_info .phone
+    {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    .arena_info .phone .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .arena_info .book_btn
+    {
+        font-size: var(--font_size);
+
+        width: 255px;
+        height: 48px;
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .about_info .row
+    {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        scroll-padding: 0 20px;
+    }
+
+
+    .about_info .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*---------------
+        Community
+    ---------------*/
+    .community .block_title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-----------
+        Media
+    -----------*/
+    .media .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .media .row
+    {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        scroll-padding: 0 20px;
+    }
+
+
+    .media .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .media .item .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .partners .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+
+    .partners .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        margin-top: 20px;
+    }
+
+
+    footer .data
+    {
+        padding: 32px;
+    }
+
+
+    footer .logo img
+    {
+        width: 160px;
+    }
+
+
+
+    footer .franchise_link
+    {
+        font-size: 15px;
+    }
+
+
+    footer .franchise_link .icon
+    {
+        width: 15px;
+        height: 25px;
+    }
+
+
+
+    footer .contacts
+    {
+        margin-top: 28px;
+
+        text-align: center;
+    }
+
+
+
+    footer .socials
+    {
+        justify-content: center;
+
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 416px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 24px;
+    }
+}

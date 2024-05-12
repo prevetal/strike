@@ -1,0 +1,502 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 18px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 20px;
+        right: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 52px;
+        padding: 0 15px;
+    }
+
+
+    .form textarea
+    {
+        padding: 11px 15px;
+    }
+
+
+    .form .nice-select .current
+    {
+        line-height: 51px;
+
+        height: 52px;
+        padding-right: 59px;
+        padding-left: 15px;
+    }
+
+
+    .form .nice-select-dropdown
+    {
+        padding: 11px 15px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 52px;
+    }
+
+
+    .form .submit_btn .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        padding: 32px 20px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 18px;
+
+        word-break: break-all;
+    }
+
+
+    .first_section .btn
+    {
+        width: 100%;
+    }
+
+
+    .first_section .btn .icon
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*-----------------
+        Social join
+    -----------------*/
+    .social_join .row a
+    {
+        min-width: 200px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .list > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .articles .article,
+    .articles .article.big
+    {
+        padding: 32px 20px;
+    }
+
+
+
+    /*----------------
+        Book space
+    ----------------*/
+    .book_space .btn
+    {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+    .book_space .btn .icon
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .btn
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .action_block .btn .icon
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*----------------
+        Arena info
+    ----------------*/
+    .arena_info .name
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*---------------
+        Our clubs
+    ---------------*/
+    .our_clubs .head
+    {
+        top: 20px;
+        left: 20px;
+    }
+
+
+    .our_clubs .head .name
+    {
+        font-size: 16px;
+    }
+
+
+    .our_clubs .swiper-slide
+    {
+        width: 300px;
+    }
+
+
+    .our_clubs .club
+    {
+        position: relative;
+
+        min-height: 0;
+        padding: 108px 20px 32px;
+
+        border-radius: 20px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .our_clubs .club:before
+    {
+        top: 56px;
+
+        max-width: calc(100% - 40px);
+    }
+
+
+    .our_clubs .indicator
+    {
+        top: 22px;
+        right: 20px;
+    }
+
+
+    .our_clubs .indicator svg
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .our_clubs .features > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .our_clubs .features .icon + *
+    {
+        width: calc(100% - 56px);
+    }
+
+
+    .our_clubs .club .price
+    {
+        width: 100%;
+        height: auto;
+        padding: 19px;
+
+        border: 1px solid #00e944;
+        border-radius: 20px;
+        background: none;
+    }
+
+
+    .our_clubs .club .price .title
+    {
+        font-size: 16px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .our_clubs .club .price .time
+    {
+        min-width: 56px;
+    }
+
+
+    .our_clubs .club .price .val
+    {
+        min-width: 32px;
+        margin-left: 12px;
+    }
+
+
+    .our_clubs .club .link
+    {
+        margin-top: 24px;
+    }
+
+
+    .our_clubs .club .link a
+    {
+        font-size: 15px;
+
+        width: 260px;
+        height: 44px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_title
+    {
+        font-size: 22px;
+    }
+
+
+    .about_info .row
+    {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        scroll-padding: 0 20px;
+    }
+
+
+    .about_info .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*---------------
+        Community
+    ---------------*/
+    .community .block_title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-----------
+        Media
+    -----------*/
+    .media .block_title
+    {
+        font-size: 22px;
+    }
+
+
+    .media .row
+    {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        scroll-padding: 0 20px;
+    }
+
+
+    .media .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .media .item .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .block_title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*--------------------
+        Open locations
+    --------------------*/
+    .open_locations #map [class*='ymaps-'][class*='-balloon__content'] > *
+    {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+
+    .open_locations #map [class*='ymaps-'][class*='-balloon__close']
+    {
+        top: 10px;
+        right: 10px;
+    }
+
+
+    .open_locations #map .item
+    {
+        padding: 19px 15px;
+
+        border: 1px solid #00e944;
+        border-radius: 20px;
+        background: #121212;
+    }
+
+
+    .open_locations #map .item .time
+    {
+        top: 20px;
+        left: 16px;
+    }
+
+
+    .open_locations #map .item .name
+    {
+        font-size: 22px;
+    }
+
+
+    .open_locations #map .item .links
+    {
+        font-size: 13px;
+    }
+
+
+    .open_locations #map .item .thumb
+    {
+        height: 156px;
+
+        border-radius: 20px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .open_locations #map .item .thumb img
+    {
+        border-radius: inherit;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .data
+    {
+        padding: 32px 20px;
+    }
+
+
+
+    footer .logo img
+    {
+        width: 128px;
+    }
+
+
+
+    footer .franchise_link
+    {
+        font-size: 13px;
+    }
+
+
+    footer .franchise_link .icon
+    {
+        width: 10px;
+        height: 16px;
+        margin-left: 12px;
+    }
+
+
+
+    footer .socials .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 32px 20px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 22px;
+    }
+
+
+    .modal_desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    #feedback_modal .bg,
+    #feedback_modal .bg:before
+    {
+        border-radius: 20px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+}

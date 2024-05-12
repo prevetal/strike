@@ -1,0 +1,1431 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --fixed_panel_width: 112px;
+        --sidebar_width: 100%;
+        --font_size: 15px;
+        --font_size_title: 22px;
+    }
+
+
+    .wrap,
+    .fancybox__container
+    {
+        zoom: 1;
+    }
+
+
+    @-moz-document url-prefix()
+    {
+        html
+        {
+            width: 100%;
+            height: 100%;
+
+            transform: none;
+            transform-origin: left top;
+        }
+    }
+
+
+    .wrap
+    {
+        padding: 24px 0;
+    }
+
+
+    .content_flex .content,
+    .content_flex .content.big_w
+    {
+        width: calc(100% - var(--fixed_panel_width) - 24px);
+    }
+
+
+    .content_flex .content .content
+    {
+        width: calc(100% - var(--sidebar_width) - 24px);
+    }
+
+
+    .content_flex .content .content
+    {
+        width: 100%;
+    }
+
+
+    .block
+    {
+        margin-bottom: 24px;
+    }
+
+    .block.big_m
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .swiper-horizontal > .swiper-scrollbar,
+    .swiper-scrollbar.swiper-scrollbar-horizontal
+    {
+        margin-top: 40px;
+    }
+
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: -356px;
+    }
+
+
+    .swiper-button-next
+    {
+        left: -300px;
+    }
+
+
+
+    /*-----------------
+        Fixed panel
+    -----------------*/
+    .fixed_panel .sticky
+    {
+        top: 24px;
+    }
+
+
+    .fixed_panel .data
+    {
+        padding: 24px 8px;
+    }
+
+
+    .fixed_panel .logo img
+    {
+        width: 68px;
+    }
+
+
+    .fixed_panel .menu
+    {
+        margin-top: 32px;
+    }
+
+
+    .fixed_panel .menu > * + *
+    {
+        margin-top: 32px;
+    }
+
+
+    .fixed_panel .menu a
+    {
+        font-size: 14px;
+    }
+
+
+    .fixed_panel .menu .icon
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .fixed_panel .menu .icon1,
+    .fixed_panel .menu .icon3
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+    .fixed_panel .menu .icon2
+    {
+        width: 34px;
+        height: 28px;
+    }
+
+    .fixed_panel .menu .icon4
+    {
+        width: 32px;
+        height: 33px;
+    }
+
+    .fixed_panel .menu .icon5
+    {
+        width: 33px;
+        height: 33px;
+    }
+
+
+
+    .fixed_panel .arrow
+    {
+        height: 76px;
+        margin-top: 24px;
+    }
+
+
+    .fixed_panel .arrow img
+    {
+        width: 28px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .form .input
+    {
+        height: 60px;
+        padding: 0 23px;
+    }
+
+
+    .form textarea
+    {
+        height: 112px;
+        padding: 15px 23px;
+    }
+
+
+    .form .nice-select .current
+    {
+        line-height: 59px;
+
+        height: 60px;
+        padding-right: 63px;
+        padding-left: 23px;
+    }
+
+
+    .form .nice-select-dropdown
+    {
+        padding: 15px 23px;
+    }
+
+
+    .form .nice-select + .arr
+    {
+        right: 20px;
+
+        width: 22px;
+        height: 14px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 18px;
+
+        height: 60px;
+    }
+
+
+    .form .submit_btn .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        padding: 40px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 28px;
+
+        width: 532px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 18px;
+
+        width: 308px;
+        margin-top: 28px;
+    }
+
+
+    .first_section .btn
+    {
+        font-size: 14px;
+
+        margin-top: 60px;
+        padding: 8px 8px 8px 23px;
+    }
+
+
+    .first_section .btn .icon
+    {
+        width: 40px;
+        height: 40px;
+        margin-left: 16px;
+    }
+
+
+
+    /*--------------------
+        Open locations
+    --------------------*/
+    .open_locations .head
+    {
+        position: relative;
+
+        margin-bottom: 24px;
+    }
+
+
+    .open_locations .head .link
+    {
+        font-size: 14px;
+
+        margin-top: 8px;
+    }
+
+
+    .open_locations .map
+    {
+        height: 440px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .open_locations .map.big
+    {
+        height: 640px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .open_locations #map [class*='ymaps-'][class*='-balloon__content'] > *
+    {
+        width: 480px !important;
+        height: 329px !important;
+    }
+
+
+    .open_locations #map .item
+    {
+        padding: 32px 24px;
+    }
+
+
+    .open_locations #map .item .time
+    {
+        font-size: 16px;
+
+        top: 32px;
+        left: 24px;
+    }
+
+
+    .open_locations #map .item .name
+    {
+        font-size: 28px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .open_locations #map .item .thumb
+    {
+        height: 187px;
+        margin-bottom: 24px;
+    }
+
+
+    .open_locations #map .item .info
+    {
+        bottom: 20px;
+    }
+
+
+    .open_locations #map .item .book_btn
+    {
+        font-size: 18px;
+    }
+
+
+    .open_locations #map .item .book_btn .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*-----------------
+        Social join
+    -----------------*/
+    .social_join
+    {
+        padding: 32px 40px 40px;
+    }
+
+
+    .social_join .row
+    {
+        margin-top: 32px;
+        margin-bottom: -16px;
+        margin-left: -16px;
+    }
+
+
+    .social_join .row > *
+    {
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
+
+    .social_join .row a
+    {
+        min-width: 176px;
+        padding: 8px;
+    }
+
+
+    .social_join .row img
+    {
+        width: 40px;
+        height: 40px;
+        margin-left: 8px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .head
+    {
+        position: relative;
+
+        margin-bottom: 24px;
+    }
+
+
+    .articles .all_link
+    {
+        font-size: 14px;
+
+        margin-top: 8px;
+    }
+
+
+    .articles .list
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px 24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .articles .list::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .articles .list::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .articles .list > *
+    {
+        display: inline-block;
+
+        width: 360px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .articles .list > * + *
+    {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+
+
+    .articles .article
+    {
+        min-height: 360px;
+        padding: 32px;
+    }
+
+
+    .articles .article .link
+    {
+        margin-top: 24px;
+    }
+
+
+    .articles .article .link .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .articles .article.big
+    {
+        height: auto;
+        min-height: 360px;
+        padding: 32px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+
+    /*------------
+        Arenas
+    ------------*/
+    .arenas .head
+    {
+        position: relative;
+
+        margin-bottom: 24px;
+    }
+
+
+    .arenas .block_desc
+    {
+        font-size: 14px;
+
+        margin-top: 8px;
+    }
+
+
+    .arenas .list
+    {
+        height: auto;
+        padding: 24px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .arenas .scroll
+    {
+        height: 368px;
+        padding: 0 12px 0 0;
+    }
+
+
+    .arenas .arena + .arena
+    {
+        margin-top: 12px;
+    }
+
+
+    .arenas .arena .city
+    {
+        font-size: 18px;
+    }
+
+
+    .arenas .arena .icon
+    {
+        width: 40px;
+        height: 40px;
+        margin-left: 16px;
+    }
+
+
+
+    /*----------------
+        Book space
+    ----------------*/
+    .book_space
+    {
+        padding: 40px;
+    }
+
+
+    .book_space .title
+    {
+        font-size: 28px;
+    }
+
+
+    .book_space .btn
+    {
+        font-size: 16px;
+
+        margin-top: 60px;
+        padding: 12px 12px 12px 24px;
+    }
+
+
+    .book_space .btn .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*-------------------
+        Сontacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .contacts_info .row > *
+    {
+        width: calc(50% - 24px);
+        max-width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    .contacts_info .section,
+    .contacts_info .section:nth-child(2n)
+    {
+        min-height: 0;
+        padding: 40px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .contacts_info .section .title
+    {
+        font-size: 20px;
+
+        padding-bottom: 32px;
+    }
+
+
+    .contacts_info .section .email
+    {
+        font-size: 16px;
+    }
+
+    .contacts_info .section .email + .email
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        margin-top: 48px;
+        padding: 40px;
+    }
+
+
+    .action_block .bg
+    {
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .action_block .data
+    {
+        width: 320px;
+    }
+
+
+    .action_block .title
+    {
+        font-size: 28px;
+    }
+
+
+    .action_block .desc
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+
+    .action_block .btn
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+        padding: 8px 12px 8px 24px;
+    }
+
+
+    .action_block .btn .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .action_block .bg_img
+    {
+        display: none;
+    }
+
+
+    .action_block .img
+    {
+        right: 12px;
+    }
+
+
+
+    /*----------------
+        Arena info
+    ----------------*/
+    .arena_info .head
+    {
+        position: relative;
+
+        margin-bottom: 24px;
+    }
+
+
+    .arena_info .country
+    {
+        font-size: 14px;
+
+        margin-top: 8px;
+    }
+
+
+    .arena_info .data
+    {
+        min-height: 0;
+        padding: 40px 32px;
+
+        border-radius: 20px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .arena_info .name
+    {
+        font-size: 56px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .arena_info .address
+    {
+        font-size: 16px;
+    }
+
+
+    .arena_info .address .icon
+    {
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+    }
+
+
+    .arena_info .phone
+    {
+        font-size: 16px;
+
+        margin-left: 32px;
+    }
+
+
+    .arena_info .phone .icon
+    {
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+    }
+
+
+    .arena_info .book_btn
+    {
+        font-size: 16px;
+
+        width: 255px;
+        height: 48px;
+    }
+
+
+
+    /*---------------
+        Our clubs
+    ---------------*/
+    .our_clubs .head .name
+    {
+        font-size: 20px;
+    }
+
+
+    .our_clubs .head .type
+    {
+        font-size: 14px;
+
+        margin-top: 8px;
+    }
+
+
+    .our_clubs .swiper-slide
+    {
+        width: 424px;
+    }
+
+
+    .our_clubs .club
+    {
+        min-height: 802px;
+        padding: 136px 32px 40px;
+    }
+
+
+    .our_clubs .club:before
+    {
+        top: 76px;
+
+        max-width: calc(100% - 64px);
+    }
+
+
+    .our_clubs .indicator
+    {
+        top: 24px;
+        right: 24px;
+    }
+
+
+    .our_clubs .indicator svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .our_clubs .features > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .our_clubs .features > *
+    {
+        font-size: 16px;
+    }
+
+
+    .our_clubs .features .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .our_clubs .features .icon + *
+    {
+        width: calc(100% - 60px);
+    }
+
+
+    .our_clubs .club .price
+    {
+        width: 359px;
+        height: 166px;
+        margin-top: 40px;
+        padding: 28px 40px 28px 48px;
+    }
+
+
+    .our_clubs .club .price .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .our_clubs .club .price .item
+    {
+        font-size: 16px;
+    }
+
+
+    .our_clubs .club .price .val
+    {
+        margin-left: 20px;
+    }
+
+
+    .our_clubs .club .link
+    {
+        margin-top: 32px;
+    }
+
+
+    .our_clubs .club .link a
+    {
+        font-size: 16px;
+
+        width: 290px;
+        height: 48px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .about_info .data
+    {
+        padding: 0;
+
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .about_info .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .about_info .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .about_info .item,
+    .about_info .item:nth-child(2n)
+    {
+        min-height: 0;
+        padding: 80px 24px 24px;
+
+        border-radius: 20px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .about_info .item .thumb,
+    .about_info .item .thumb img
+    {
+        border-radius: 20px;
+    }
+
+
+    .about_info .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .about_info .item .desc
+    {
+        font-size: 16px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*---------------
+        Community
+    ---------------*/
+    .community .block_title
+    {
+        font-size: 28px;
+
+        width: 316px;
+    }
+
+
+    .community .swiper
+    {
+        width: calc(100% - 356px);
+    }
+
+
+    .community .swiper-slide
+    {
+        width: 360px;
+    }
+
+
+    .community .item
+    {
+        min-height: 200px;
+        padding: 24px;
+
+        border-radius: 20px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .community .item .name
+    {
+        font-size: 20px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .community .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Our arenas
+    ----------------*/
+    .our_arenas .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .our_arenas .swiper-slide
+    {
+        width: 424px;
+    }
+
+
+    .our_arenas .item
+    {
+        padding: 32px 24px;
+    }
+
+
+    .our_arenas .item .time
+    {
+        font-size: 15px;
+
+        top: 32px;
+        left: 24px;
+    }
+
+
+    .our_arenas .item .time .icon
+    {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+    }
+
+
+    .our_arenas .item .thumb
+    {
+        margin-bottom: 24px;
+        padding-bottom: 58%;
+
+        border-radius: 20px;
+    }
+
+
+    .our_arenas .item .thumb img
+    {
+        border-radius: 20px;
+    }
+
+
+    .our_arenas .item .info
+    {
+        bottom: 20px;
+    }
+
+
+    .our_arenas .item .name
+    {
+        font-size: 28px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .our_arenas .item .links
+    {
+        font-size: 14px;
+
+        margin-left: -20px;
+    }
+
+
+    .our_arenas .item .links > *
+    {
+        margin-left: 20px;
+    }
+
+
+    .our_arenas .item .types .label
+    {
+        font-size: 14px;
+
+        width: 136px;
+        margin-right: 24px;
+    }
+
+
+    .our_arenas .item .types .vals
+    {
+        margin-left: -24px;
+    }
+
+
+    .our_arenas .item .types .vals > *
+    {
+        min-height: 32px;
+        margin-left: 24px;
+    }
+
+
+    .our_arenas .item .types .vals .icon
+    {
+        margin-right: 12px;
+    }
+
+
+    .our_arenas .item .types .pc .icon
+    {
+        width: 32px;
+        height: 28px;
+    }
+
+    .our_arenas .item .types .ps .icon
+    {
+        width: 28px;
+        height: 22px;
+    }
+
+
+    .our_arenas .item .clubs
+    {
+        margin-top: 24px;
+    }
+
+
+    .our_arenas .item .clubs .label
+    {
+        font-size: 14px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .our_arenas .item .clubs .vals
+    {
+        margin-bottom: -16px;
+        margin-left: -24px;
+    }
+
+
+    .our_arenas .item .clubs .vals > *
+    {
+        margin-bottom: 16px;
+        margin-left: 24px;
+    }
+
+
+    .our_arenas .item .book_btn
+    {
+        font-size: 16px;
+
+        margin-top: 40px;
+    }
+
+
+    .our_arenas .item .book_btn .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*-----------
+        Media
+    -----------*/
+    .media .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .media .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .media .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .media .item .thumb
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .media .item .name
+    {
+        font-size: 28px;
+    }
+
+
+    .media .item .desc
+    {
+        font-size: 16px;
+
+        margin-top: 16px;
+    }
+
+
+    .media .item .link
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .partners .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .partners .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .partners .item
+    {
+        height: 80px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        margin-top: 24px;
+    }
+
+
+
+    footer .data
+    {
+        padding: 40px;
+    }
+
+
+
+    footer .logo img
+    {
+        width: 200px;
+    }
+
+
+
+    footer .franchise_link
+    {
+        font-size: 18px;
+    }
+
+
+    footer .franchise_link .icon
+    {
+        width: 18px;
+        height: 30px;
+        margin-left: 20px;
+    }
+
+
+
+    footer .contacts
+    {
+        font-size: 16px;
+
+        order: 3;
+
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+
+
+    footer .socials a + a
+    {
+        margin-left: 16px;
+    }
+
+
+    footer .socials .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 453px;
+        padding: 60px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 28px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 24px;
+    }
+}

@@ -1,0 +1,777 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 20px;
+    }
+
+
+    .swiper-horizontal > .swiper-scrollbar,
+    .swiper-scrollbar.swiper-scrollbar-horizontal
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 56px;
+        padding: 0 19px;
+    }
+
+
+    .form textarea
+    {
+        padding: 15px 19px;
+    }
+
+
+    .form .nice-select .current
+    {
+        line-height: 55px;
+
+        height: 56px;
+        padding-right: 63px;
+        padding-left: 19px;
+    }
+
+
+    .form .nice-select-dropdown
+    {
+        padding: 15px 19px;
+    }
+
+
+    .form .nice-select .list .option + .option
+    {
+        margin-top: 12px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 16px;
+
+        height: 56px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 26px;
+
+        width: 492px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 17px;
+
+        width: 292px;
+    }
+
+
+    .first_section .btn
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*--------------------
+        Open locations
+    --------------------*/
+    .open_locations .map
+    {
+        height: 400px;
+    }
+
+
+
+    /*-----------------
+        Social join
+    -----------------*/
+    .social_join .row a
+    {
+        min-width: 200px;
+    }
+
+
+
+    /*------------
+        Arenas
+    ------------*/
+    .open_locations .map.big
+    {
+        height: 589px;
+    }
+
+
+
+    /*----------------
+        Book space
+    ----------------*/
+    .book_space
+    {
+        padding: 32px 24px;
+    }
+
+
+    .book_space .title
+    {
+        font-size: 26px;
+    }
+
+
+    .book_space .btn
+    {
+        font-size: var(--font_size);
+
+        margin-top: 40px;
+    }
+
+
+    .book_space .btn .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*-------------------
+        Сontacts info
+    -------------------*/
+    .contacts_info .section,
+    .contacts_info .section:nth-child(2n)
+    {
+        padding: 24px;
+    }
+
+
+    .contacts_info .section .title
+    {
+        font-size: 18px;
+
+        padding-bottom: 24px;
+    }
+
+
+    .contacts_info .section .email
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 32px 24px;
+    }
+
+    .action_block .data
+    {
+        width: 320px;
+    }
+
+
+    .action_block .title
+    {
+        font-size: 26px;
+    }
+
+
+    .action_block .desc
+    {
+        font-size: var(--font_size);
+
+        width: 236px;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .action_block .btn
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .action_block .btn .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .action_block .img
+    {
+        max-width: 53%;
+    }
+
+
+
+    /*----------------
+        Arena info
+    ----------------*/
+    .arena_info .data
+    {
+        padding: 40px 24px;
+    }
+
+
+    .arena_info .name
+    {
+        font-size: 44px;
+    }
+
+
+    .arena_info .address
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .arena_info .phone
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .arena_info .book_btn
+    {
+        font-size: var(--font_size);
+
+        width: 255px;
+        height: 48px;
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Our clubs
+    ---------------*/
+    .our_clubs .head .name
+    {
+        font-size: 18px;
+    }
+
+
+    .our_clubs .swiper-slide
+    {
+        width: 396px;
+    }
+
+
+    .our_clubs .club
+    {
+        min-height: 752px;
+        padding: 124px 24px 32px;
+    }
+
+
+    .our_clubs .club:before
+    {
+        top: 68px;
+
+        max-width: calc(100% - 48px);
+    }
+
+
+    .our_clubs .features > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .our_clubs .features > *
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .our_clubs .club .price
+    {
+        width: 338px;
+        height: 156px;
+    }
+
+
+    .our_clubs .club .price .title
+    {
+        font-size: 18px;
+    }
+
+
+    .our_clubs .club .price .item
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .our_clubs .club .price .item + .item
+    {
+        margin-top: 9px;
+        padding-top: 8px;
+    }
+
+
+    .our_clubs .club .price .val
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding-bottom: 24px;
+    }
+
+
+    .about_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .about_info .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .about_info .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .about_info .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .about_info .row > *
+    {
+        display: inline-block;
+
+        width: 320px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .about_info .row > * + *
+    {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+
+    .about_info .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .about_info .item .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*---------------
+        Community
+    ---------------*/
+    .community .block_title
+    {
+        font-size: 26px;
+
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    .community .block_title br
+    {
+        display: none;
+    }
+
+
+    .community .swiper
+    {
+        width: 100%;
+    }
+
+
+    .community .swiper-slide
+    {
+        width: 320px;
+    }
+
+
+    .community .swiper-slide
+    {
+        visibility: visible;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .community .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .community .item .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*----------------
+        Our arenas
+    ----------------*/
+    .our_arenas .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .our_arenas .swiper-slide
+    {
+        width: 320px;
+    }
+
+
+    .our_arenas .item .time
+    {
+        font-size: 14px;
+    }
+
+
+    .our_arenas .item .thumb
+    {
+        padding-bottom: 66%;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .our_arenas .item .info
+    {
+        bottom: 16px;
+        left: 16px;
+    }
+
+
+    .our_arenas .item .name
+    {
+        font-size: 26px;
+    }
+
+
+    .our_arenas .item .links
+    {
+        font-size: 13px;
+
+        display: block;
+
+        margin-left: 0;
+    }
+
+
+    .our_arenas .item .links > *
+    {
+        margin-left: 0;
+    }
+
+
+    .our_arenas .item .types .label
+    {
+        font-size: 13px;
+
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+
+    .our_arenas .item .types .label br
+    {
+        display: none;
+    }
+
+
+    .our_arenas .item .clubs .label
+    {
+        font-size: 13px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .our_arenas .item .clubs .vals
+    {
+        font-size: 14px;
+
+        margin-left: -12px;
+    }
+
+
+    .our_arenas .item .clubs .vals > *
+    {
+        margin-left: 12px;
+    }
+
+
+    .our_arenas .item .clubs .vals img
+    {
+        height: 10px;
+    }
+
+
+    .our_arenas .item .book_btn
+    {
+        font-size: var(--font_size);
+
+        margin-top: 32px;
+    }
+
+
+    .our_arenas .item .book_btn .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*-----------
+        Media
+    -----------*/
+    .media .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .media .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .media .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .media .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .media .row > *
+    {
+        display: inline-block;
+
+        width: 320px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .media .row > * + *
+    {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+
+    .media .item .name
+    {
+        font-size: 24px;
+    }
+
+
+    .media .item .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .media .item .link
+    {
+        font-size: var(--font_size);
+
+        margin-top: 20px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .partners .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .partners .item
+    {
+        height: 64px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo img
+    {
+        width: 180px;
+    }
+
+
+
+    footer .franchise_link
+    {
+        font-size: 16px;
+    }
+
+
+    footer .franchise_link .icon
+    {
+        width: 16px;
+        height: 26px;
+        margin-left: 16px;
+    }
+
+
+
+    footer .contacts
+    {
+        font-size: var(--font_size);
+
+        margin-top: 32px;
+    }
+
+
+
+    footer .socials a + a
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 422px;
+        padding: 40px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 26px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: var(--font_size);
+    }
+}
