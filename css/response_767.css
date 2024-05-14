@@ -604,6 +604,200 @@
 
 
 
+    /*-----------------
+        Partnership
+    -----------------*/
+    .partnership .block_title
+    {
+        font-size: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .partnership .list
+    {
+        margin-top: 20px;
+    }
+
+
+    .partnership .list > *
+    {
+        width: 100%;
+    }
+
+
+    .partnership .list > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .partnership .list .item
+    {
+        min-height: 142px;
+        padding: 60px 24px 24px;
+    }
+
+
+
+    .partnership .item.big
+    {
+        padding: 40px 24px;
+    }
+
+
+    .partnership .item.big .info
+    {
+        width: 100%;
+    }
+
+
+    .partnership .item.big .info > *
+    {
+        padding-left: 20px;
+    }
+
+
+    .partnership .item.big .info > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+    .partnership .item.big .link
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        Any events
+    ----------------*/
+    .any_events .block_title
+    {
+        font-size: 24px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .any_events .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 20px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .any_events .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .any_events .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .any_events .row > *
+    {
+        display: inline-block;
+
+        width: 260px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .any_events .row > * + *
+    {
+        margin-top: 0;
+        margin-left: 16px;
+    }
+
+
+    .any_events .full_rent
+    {
+        height: auto;
+    }
+
+
+    .any_events .full_rent .info
+    {
+        width: 100%;
+    }
+
+
+    .any_events .full_rent .desc
+    {
+        width: 100%;
+    }
+
+
+    .any_events .full_rent .image
+    {
+        display: none;
+    }
+
+
+    .any_events .full_rent .btn
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+
+        margin-top: 24px;
+
+        transform: none;
+    }
+
+
+
+    /*---------------------------
+        Individual conditions
+    ---------------------------*/
+    .individual_conditions .block_title
+    {
+        font-size: 24px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .individual_conditions .info > * + *
+    {
+        margin-top: 28px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

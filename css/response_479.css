@@ -429,6 +429,111 @@
 
 
 
+    /*-----------------
+        Partnership
+    -----------------*/
+    .partnership .block_title
+    {
+        font-size: 22px;
+    }
+
+
+    .partnership .list .item
+    {
+        min-height: 132px;
+        padding: 60px 20px 20px;
+    }
+
+
+
+    .partnership .item.big
+    {
+        padding: 40px 20px;
+    }
+
+
+    .partnership .item.big .link,
+    .partnership .item.big .link a
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Any events
+    ----------------*/
+    .any_events .block_title
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .any_events .row > *
+    {
+        height: 132px;
+        padding: 20px;
+    }
+
+
+    .any_events .full_rent
+    {
+        padding: 40px 20px;
+    }
+
+
+    .any_events .full_rent .title
+    {
+        font-size: 16px;
+    }
+
+
+    .any_events .full_rent .btn
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------------------
+        Individual conditions
+    ---------------------------*/
+    .individual_conditions .data
+    {
+        padding: 40px 20px;
+    }
+
+
+    .individual_conditions .block_title
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .individual_conditions .info > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .individual_conditions .link
+    {
+        margin-top: 32px;
+    }
+
+
+    .individual_conditions .link a
+    {
+        width: 100%;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

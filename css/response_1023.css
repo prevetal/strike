@@ -713,6 +713,287 @@
 
 
 
+    /*-----------------
+        Partnership
+    -----------------*/
+    .partnership .block_title
+    {
+        font-size: 26px;
+
+        position: relative;
+
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    .partnership .list .item
+    {
+        overflow: hidden;
+
+        height: auto;
+        min-height: 148px;
+        padding: 64px 24px 24px;
+
+        border-radius: 20px;
+        background: #121212;
+    }
+
+
+    .partnership .list .item:nth-child(1),
+    .partnership .list .item:nth-child(2)
+    {
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .partnership .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .partnership .item .name br
+    {
+        display: none;
+    }
+
+
+
+    .partnership .item.big
+    {
+        overflow: hidden;
+
+        height: auto;
+        padding: 64px 24px 24px;
+
+        border-radius: 20px;
+        background: #121212;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .partnership .item.big .info
+    {
+        font-size: var(--font_size);
+
+        width: calc(100% - 328px);
+        margin-bottom: 0;
+    }
+
+
+    .partnership .item.big .info > *
+    {
+        padding-left: 24px;
+    }
+
+
+    .partnership .item.big .info > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .partnership .item.big .info .icon
+    {
+        top: 2px;
+
+        width: 8px;
+        height: 13px;
+    }
+
+
+    .partnership .item.big .link
+    {
+        right: 24px;
+        bottom: 24px;
+    }
+
+
+    .partnership .item.big .link a
+    {
+        font-size: 15px;
+
+        padding: 8px 8px 8px 16px;
+    }
+
+
+    .partnership .item.big .link .icon
+    {
+        width: 36px;
+        height: 36px;
+        margin-left: 16px;
+    }
+
+
+
+    /*----------------
+        Any events
+    ----------------*/
+    .any_events .block_title
+    {
+        font-size: 26px;
+
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+
+    .any_events .row > *
+    {
+        max-width: calc(50% - 24px);
+    }
+
+
+    .any_events .item,
+    .any_events .item:nth-child(2n)
+    {
+        overflow: hidden;
+
+        border-radius: 20px;
+        background: #121212;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .any_events .item .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    .any_events .full_rent
+    {
+        overflow: hidden;
+
+        padding: 40px 24px;
+
+        border-radius: 20px;
+        background: #121212;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .any_events .full_rent .info
+    {
+        width: 240px;
+    }
+
+
+    .any_events .full_rent .desc
+    {
+        width: 240px;
+    }
+
+
+    .any_events .full_rent .image
+    {
+        overflow: hidden;
+
+        width: calc(100% - 328px);
+        height: calc(100% - 48px);
+
+        border-radius: 20px;
+
+                mask: none;
+        -webkit-mask: none;
+    }
+
+
+    .any_events .full_rent .image img
+    {
+        border-radius: inherit;
+    }
+
+
+    .any_events .full_rent .btn
+    {
+        font-size: 15px;
+
+        right: 48px;
+
+        padding: 8px 8px 8px 16px;
+    }
+
+
+    .any_events .full_rent .btn .icon
+    {
+        width: 36px;
+        height: 36px;
+        margin-left: 16px;
+    }
+
+
+
+    /*---------------------------
+        Individual conditions
+    ---------------------------*/
+    .individual_conditions .data
+    {
+        padding: 40px 24px;
+    }
+
+
+    .individual_conditions .block_title
+    {
+        font-size: 26px;
+
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+
+    .individual_conditions .info > *
+    {
+        width: 100%;
+    }
+
+    .individual_conditions .info > * + *
+    {
+        margin-top: 32px;
+    }
+
+
+    .individual_conditions .info .title
+    {
+        font-size: 16px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .individual_conditions .info ul,
+    .individual_conditions .info .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .individual_conditions .link a
+    {
+        font-size: 15px;
+
+        padding: 8px 8px 8px 16px;
+    }
+
+
+    .individual_conditions .link .icon
+    {
+        width: 36px;
+        height: 36px;
+        margin-left: 16px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
